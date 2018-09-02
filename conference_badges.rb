@@ -13,6 +13,7 @@ end
 
 def room_message(name, num)
   "Hello, #{name}! You'll be assigned to room #{num}"
+end
 
 def assign_rooms(speakers)
   room = 1
