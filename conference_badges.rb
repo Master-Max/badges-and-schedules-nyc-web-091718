@@ -29,7 +29,7 @@ def printer(attendees)
   room = 1
   attendees.each do |i|
     puts badge_maker(i)
-    puts assigned_rooms(i)
+    puts room_message(i)
     room += 1
   end
 end
